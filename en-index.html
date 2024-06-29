@@ -1,0 +1,482 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X_UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <title>Portfolio</title>
+        <link rel="stylesheet" href="style.css">
+    <body>
+        <!--Background-->
+        <div class="bg"></div>
+        <div class="bg bg2"></div>
+        <div class="bg bg3"></div>
+        <!--front-->
+        <div class="contenedor-header">
+            <header>
+                <div class="logo">
+                    <a href="#login">JOSE</a>
+                </div>
+                <!--changes generated 08/may/2024-->
+                <div class="loader">
+                    <div class="circle white"></div>
+                    <div class="circle red"></div>
+                    <div class="circle orange"></div>
+                    <div class="circle blue"></div>
+                </div>
+                <nav id="nav">
+                    <ul>
+                        <li><a href="#aboutme" onclick="seleccionar()">ABOUT ME</a></li>
+                        <li><a href="#skills" onclick="seleccionar()">SKILLS</a></li>
+                        <li><a href="#cv" onclick="seleccionar()">RESUME</a></li>
+                        <li><a href="#portfolio" onclick="seleccionar()">PORTFOLIO</a></li>
+                        <li><a href="#contact" onclick="seleccionar()">CONTACT</a></li>
+                        <li><span class="eng">English</span>
+                            <input type="checkbox" class="check">
+                            <span class="esp">Spanish</span>
+                        </li>
+                    </ul>
+                </nav>
+                <div class="nav-responsive" onclick="mostrarOcultarMenu()">
+                    <i class="fa-solid fa-bars"></i>
+                </div>
+            </header>
+        </div>
+        <!--start-->
+        <section id="login" class="inicio">
+            <div class="contenido-banner">
+                <div class="contenedor-img">
+                    <img src="img/img.png" alt="">
+                    <div class="bor-top">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                </div>
+                <h1>Jose Manuel Huerta Muñoz</h1>
+                <h2>Engineer Electronic / Designer Front-end Jr.</h2>
+                <div class="redes">
+                    <a href="https://www.linkedin.com/in/josehmz" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://github.com/azulhmz"  target="_blank"><i class="fa-brands fa-square-github"></i></a>
+                    <a href="https://www.facebook.com/espartan.jose?mibextid=ZbWKwL" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://www.instagram.com/azulhmz?igsh=MTlwNWI4em5ueGhuNg==" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://wa.me/2214434057" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
+                </div>
+            </div>
+        </section>
+        <!--About me-->
+        <section id="aboutme" class="aboutme">
+            <div class="contenido-seccion">
+                <h2>About Me</h2>
+                <p><span>Hi, I'm Jose Huerta!!</span> I am an Electronics Engineer and Jr. Front-end developer, passionate about technology
+                    and constantly learning about it, a taste for creating various content such as applications
+                    web and use of microcontrollers, admiration for video games and their creation.</p>
+                <div class="fila">
+                    <!--Personal file-->
+                    <div class="col">
+                        <h3>Personal Information</h3>
+                        <ul>
+                            <li>
+                                <strong>Email Personal</strong>
+                                josehmz@outlook.com
+                            </li>
+                            <li>
+                                <strong>Email for Work</strong>
+                                josemahmz@gmail.com
+                            </li>
+                            <li>
+                                <strong>Position Job</strong>
+                                <span>Freelance</span>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col">
+                        <h3>Personal Interests</h3>
+                        <div class="contenedor-intereses">
+                            <div class="intereses">
+                                <i class="fa-solid fa-gamepad"></i>
+                                <span>Videogames</span>
+                                <div class="bor-top">
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                </div>
+                            </div>
+                            <div class="intereses">
+                                <i class="fa-solid fa-headphones"></i>
+                                <span>Music</span>
+                                <div class="bor-top">
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                </div>
+                            </div>
+                            <div class="intereses">
+                                <i class="fa-solid fa-motorcycle"></i>
+                                <span>Motorcycles</span>
+                                <div class="bor-top">
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                </div>
+                            </div>
+                            <div class="intereses">
+                                <i class="fa-solid fa-car"></i>
+                                <span>Cars</span>
+                                <div class="bor-top">
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                </div>
+                            </div>
+                            <div class="intereses">
+                                <i class="fa-solid fa-microchip"></i>
+                                <span>Technology</span>
+                                <div class="bor-top">
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <a href="https://drive.google.com/file/d/1IpPHfkhMap8wdxL9xFCXjJms5DqujBeZ/view?usp=drive_link" target="_blank" download="CV_JMHM">
+                    <button>
+                        <a href="https://drive.google.com/file/d/1IpPHfkhMap8wdxL9xFCXjJms5DqujBeZ/view?usp=drive_link" target="_blank" download="CV_JMHM"></a>
+                        Resume Download <i class="fa-solid fa-download"></i>
+                        <span class="overlay"></span>
+                    </button>
+                </a>
+            </div>
+        </section>
+        <!--Skills-->
+        <section id="skills" class="skills">
+            <div class="contenido-seccion">
+                <h2>Skills</h2>
+                <div class="fila">
+                    <div class="col">
+                        <h3>Technical Skills</h3>
+                        <div class="skill">
+                            <span>JavaScript</span>
+                            <div class="barra-skill">
+                                <div class="progreso">
+                                    <span>50%</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="skill">
+                            <span>HTML5 & CSS3</span>
+                            <div class="barra-skill">
+                                <div class="progreso">
+                                    <span>50%</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="skill">
+                            <span>Python</span>
+                            <div class="barra-skill">
+                                <div class="progreso">
+                                    <span>40%</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="skill">
+                            <span>C++</span>
+                            <div class="barra-skill">
+                                <div class="progreso">
+                                    <span>30%</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="skill">
+                            <span>C# - .NET</span>
+                            <div class="barra-skill">
+                                <div class="progreso">
+                                    <span>20%</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="skill">
+                            <span>MySQL-Data Base</span>
+                            <div class="barra-skill">
+                                <div class="progreso">
+                                    <span>25%</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="skill">
+                            <span>PHP</span>
+                            <div class="barra-skill">
+                                <div class="progreso">
+                                    <span>25%</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="skill">
+                            <span>JAVA</span>
+                            <div class="barra-skill">
+                                <div class="progreso">
+                                    <span>20%</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="skill">
+                            <span>ORACLE - Data Base</span>
+                            <div class="barra-skill">
+                                <div class="progreso">
+                                    <span>10%</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <h3>Professional Skills</h3>
+                        <div class="skill">
+                            <span>Analytical Thinking</span>
+                            <div class="barra-skill">
+                                <div class="progreso">
+                                    <span>80%</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="skill">
+                            <span>Proactive</span>
+                            <div class="barra-skill">
+                                <div class="progreso">
+                                    <span>80%</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="skill">
+                            <span>Communication</span>
+                            <div class="barra-skill">
+                                <div class="progreso">
+                                    <span>90%</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="skill">
+                            <span>Fast Learning</span>
+                            <div class="barra-skill">
+                                <div class="progreso">
+                                    <span>83%</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="skill">
+                            <span>Responsible</span>
+                            <div class="barra-skill">
+                                <div class="progreso">
+                                    <span>80%</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="skill">
+                            <span>Organized</span>
+                            <div class="barra-skill">
+                                <div class="progreso">
+                                    <span>87%</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--Changes generate 26/06/24-->
+        <!--Softwares-->
+        <section id="softwares" class="softwares">
+            <div class="contenido-seccion">
+                <div class="fila">
+                    <div class="col">
+                        <h3>Softwares</h3>
+                        <div class="contenedor-software">
+                            <div class="software">
+                                <i class="fa-solid fa-code"></i>
+                                <span>Visual Studio Code</span>
+                                <!--Changes generate 27/06/24-->
+                                <div class="bor-top">
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                </div>
+                            </div>
+                            <div class="software">
+                                <i class="fa-brands fa-connectdevelop"></i>
+                                <span>IntelliJ IDEA</span>
+                                <div class="bor-top">
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                </div>
+                            </div>
+                            <div class="software">
+                                <i class="fa-brands fa-python"></i>
+                                <span>PyCharm</span>
+                                <div class="bor-top">
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                </div>
+                            </div>
+                            <div class="software">
+                                <i class="fa-regular fa-circle"></i>
+                                <span>Eclipse</span>
+                                <div class="bor-top">
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                </div>
+                            </div>
+                            <div class="software">
+                                <i class="fa-regular fa-hard-drive"></i>
+                                <span>Arduino IDE</span>
+                                <div class="bor-top">
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                </div>
+                            </div>
+                            <div class="software">
+                                <i class="fa-solid fa-code"></i>
+                                <span>Visual Studio</span>
+                                <div class="bor-top">
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                </div>
+                            </div>
+                            <div class="software">
+                                <i class="fa-solid fa-code-branch"></i>
+                                <span>GIT</span>
+                                <div class="bor-top">
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--CV-->
+        <section id="cv" class="cv">
+            <div class="contenido-seccion">
+                <h2>Resume</h2>
+                <div class="fila">
+                    <div class="col izquierda">
+                        <h3>Education</h3>
+                        <div class="item izq">
+                            <h4>Enginner Electronic</h4>
+                            <h4>Specialty - Cyberphysical Systems</h4>
+                            <span class="institute">Instituto Tecnologico de Puebla</span>
+                            <span class="date">2017 - 2023</span>
+                            <div class="conectori">
+                                <div class="circuloi"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col derecha">
+                        <h3>Experience Job</h3>
+                        <div class="item der">
+                            <h3>Projects Developer</h3>
+                            <h4>IoT Seeder Device (Social Service)</h4>
+                            <span class="institute">Instituto Tecnologico de Puebla</span>
+                            <span class="date">August 2021 - December 2021</span>
+                            <ul>
+                                <li>Objective achieved, control of a drone and the trigger to sow seeds more effectively within the
+                                    Institute</li>
+                                <li>Design and programming to control the trigger from a web page in HTML 5 and CSS 3.</li>
+                                <li>Coding for the ESP32 microcontroller for the trigger with the Arduino software.</li>
+                                <li>Design of the seed trigger using SolidWorks software.</li>
+                            </ul>
+                            <div class="conectord">
+                                <div class="circulod"></div>
+                            </div>
+                        </div>
+                        <div class="item der">
+                            <h4>Improvement of web application in customer service processes (Professional Practices)</h4>
+                            <span class="institute">Secretaria del Bienestar</span>
+                            <span class="date">June 2022 - December 2022</span>
+                            <ul>
+                                <li>Objective achieved to optimize service processes making them more effective for the delivery of statistical reports
+                                    on the number of users served.</li>
+                                <li>Implementation of a database through PHP and MySQL, using the phpMyAdmi page.</li>
+                                <li>Design and programming according to the needs of customer service personnel through HTML
+                                    5 and CSS 3.</li>
+                            </ul>
+                            <div class="conectord">
+                                <div class="circulod"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--Portfolio-->
+        <section id="portfolio" class="portfolio">
+            <div class="contenido-seccion">
+                <h2>Portfolio</h2>
+                <div class="gallery">
+                    <div class="project">
+                        <img src="img/img_pt1.jpg" alt="">
+                        <div class="overlay">
+                            <h3>Web Application</h3>
+                            <p><a href="https://github.com/azulhmz/portfolio/tree/main/Proyecto-Residencia" target="_blank">Web design to support staff</a></p>
+                        </div>
+                    </div>
+                    <div class="project">
+                        <img src="img/img_pt2.png" alt="">
+                        <div class="overlay">
+                            <h3>Web Application - Microcontroller</h3>
+                            <p><a href="https://github.com/azulhmz/portfolio/tree/main/Proyecto-Servicio" target="_blank">ESP32 microcontroller web design and control</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--Contact-->
+        <section id="contact" class="contact">
+            <div class="contenido-seccion">
+                <h2>Contact</h2>
+                <div class="fila">
+                    <div class="col">
+                        <!--Pagina para enviar los datos al correo free-->
+                        <form action="https://formsubmit.co/josehmz@outlook.com" method="POST">
+                            <input type="text" name="nombre" id="nombre" placeholder="Name">
+                            <input type="text" name="celular" id="numero" placeholder="Phone number">
+                            <input type="Email" name="email" id="email" placeholder="Email">
+                            <textarea name="mensaje" id="mensaje" cols="30" rows="10" placeholder="Menssage"></textarea>
+                            <button type="submit">
+                                Send <i class="fa-solid fa-paper-plane"></i>
+                                <span class="overlay"></span>
+                            </button>
+                        </form>
+                    </div>
+                    
+                </div>
+            </div>
+        </section>
+        <!--Footer-->
+        <footer>
+            <a href="#login" class="arriba"><i class="fa-solid fa-angles-up"></i></a>
+        </footer>
+        <script src="script.js"></script>
+    </body>
+</html>
